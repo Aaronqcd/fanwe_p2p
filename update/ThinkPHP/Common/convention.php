@@ -93,9 +93,9 @@ return  array(
     'LANG_AUTO_DETECT'      => true,   // 自动侦测语言 开启多语言功能后有效
 
     /* 日志设置 */
-    'LOG_RECORD'            => false,   // 默认不记录日志
+    'LOG_RECORD'            => true,   // 默认不记录日志
     'LOG_FILE_SIZE'         => 2097152,	// 日志文件大小限制
-    'LOG_RECORD_LEVEL'      => array('EMERG','ALERT','CRIT','ERR'),// 允许记录的日志级别
+    'LOG_RECORD_LEVEL'      => array('EMERG','ALERT','CRIT','ERR','WARN','NOTIC','INFO','DEBUG','SQL'),// 允许记录的日志级别
 
     /* 分页设置 */
 	'PAGE_ROLLPAGE'         => 5,      // 分页显示页数
