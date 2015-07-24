@@ -6,8 +6,8 @@
 // +----------------------------------------------------------------------
 // | Author: 云淡风轻(88522820@qq.com)
 // +----------------------------------------------------------------------
-define("IS_DEBUG",false);
-define("SHOW_DEBUG",false);
+define("IS_DEBUG",true);
+define("SHOW_DEBUG",true);
 if (PHP_VERSION >= '5.0.0')
 {
 	$begin_run_time = @microtime(true);

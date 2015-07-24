@@ -1,5 +1,6 @@
 <?php
 return array(
+'SHOW_PAGE_TRACE' =>true,
 'DEFAULT_ADMIN'=>'admin',
 'URL_MODEL'=>'0',
 'AUTH_KEY'=>'fanwe',
@@ -38,8 +39,12 @@ return array(
 'PAGE_SIZE'=>'10',
 'HELP_CATE_LIMIT'=>'4',
 'HELP_ITEM_LIMIT'=>'4',
-'SHOP_FOOTER'=>'<div style=\"text-align:center;\">联系我们：info@fanwe.com &nbsp; 福州方维信息科技有限公司</div>
-<div style=\"text-align:center;\">© 2013 p2p信贷 All rights reserved</div>',
+'SHOP_FOOTER'=>'<div style=\"text-align:center;\">
+	联系我们：info@fanwe.com &nbsp; 福州方维信息科技有限公司
+</div>
+<div style=\"text-align:center;\">
+	&copy; 2013 p2p信贷 All rights reserved
+</div>',
 'CUSTOM_SERVICE'=>',',
 'SMS_SEND_REPAY'=>'1',
 'USER_MESSAGE_AUTO_EFFECT'=>'1',
